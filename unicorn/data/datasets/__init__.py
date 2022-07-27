@@ -16,8 +16,8 @@ from .omni_data import OmniDataset
 # MOT
 from .mot import MOTDataset
 from .mot_omni import MOTOmniDataset
-from .bdd import BDDDataset
-from .bdd_omni import BDDOmniDataset
+#from .bdd import BDDDataset
+#from .bdd_omni import BDDOmniDataset
 # SOT-MOT
 from .mosaicdetection_uni import MosaicDetectionUni
 from .omni_data import OmniDatasetPlus
@@ -27,7 +27,7 @@ from .mosaicdetection import MosaicDetectionIns
 # MOTS
 from .coco_mots import COCOMOTSDataset
 from .mots_mot import MOTSMOTDataset
-from .bdd_omni_mots import BDDOmniMOTSDataset
+#from .bdd_omni_mots import BDDOmniMOTSDataset
 # VOS
 from .saliency import SaliencyDataset
 from .davis import DAVISDataset
