@@ -15,5 +15,11 @@ class Exp(ExpTrack):
         self.in_channels = [384, 768, 1536]
         self.pretrain_name = "unicorn_det_convnext_large_800x1280"
         self.mot_test_name = "motchallenge"
-        self.num_classes = 1
+        self.num_classes = 10
         self.mhs = False
+        self.data_dir = "/content/drive/MyDrive/yolox_putney_training/home/ec2-user/SageMaker/Ahmed_Yolox_Trials/coco_formated_putney_extended"
+        self.train_ann = "train.json"
+        self.val_ann = "validation.json"
+        self.mot_only=True
+        self.mot_weight=1
+        self.task = "uni" 
